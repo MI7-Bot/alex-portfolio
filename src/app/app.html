@@ -1,5 +1,4 @@
 <!-- Nav -->
-
 <nav class="nav">
   <span class="logo">alex marques</span>
   <ul class="nav-links">
@@ -13,7 +12,6 @@
 </nav>
 
 <!-- Hero / About -->
-
  <section class="hero" id="about">
   <div class="hero-content">
     <p class="hero-eyebrow">Hi, I'm Alex Marques</p>
@@ -28,4 +26,32 @@
  </section>
 
 <!-- School Projects -->
+<section class="section" id="projects">
+  <p class="section-label">School projects</p>
+  <div class="projects-grid">
+    <div class="project-card" *ngFor="let project of schoolProjects">
+      <div class="project-header">
+        <h3>{{ project.title }}</h3>
+        <span class="course-badge">{{ project.course }}</span>
+      </div>
+      <p> {{ project.description }}</p>
+      <div class="project-tags">
+        <span class="project-tags" *ngFor="let tag of project.tags">{{ tag }}</span>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- Experience -->
+ <section class="section" id="experience">
+  <p class="section-label">Work &amp; volunteer experience</p>
+  <div class="experience-list">
+    <div class="experience-item" *ngFor="let job of experience">
+      <div class="experience-left">
+        <h3>{{ job.role }}</h3>
+        <p class="experience-org">{{ job.period }}</p>
+        <p>{{ job.description }}</p>
+      </div>
+    </div>
+  </div>
+ </section>

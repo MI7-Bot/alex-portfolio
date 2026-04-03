@@ -20,7 +20,7 @@ export class App {
   bio = 'Computer Programming student at St. Clair College with a passion for building clean, functional web applications. Currently developing my skills in both frontend and backend development and looking to grow through real-world experience.';
 
   skills = [
-    'HTML / CSS', 'JavaScript', 'TypeScript', 'Angular', 'Node.js', 'SQL', 'Git / GitHub', 'Responsive Design', 'Java'
+    'HTML / CSS', 'JavaScript', 'TypeScript', 'Angular', 'Node.js', 'MySQL', 'Git / GitHub', 'Responsive Design', 'Java', 'XML' 
   ];
 
   schoolProjects = [
