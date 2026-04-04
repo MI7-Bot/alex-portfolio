@@ -37,6 +37,7 @@ export class App {
       course: 'MIT207',
       description: 'A resume new nad improved resume built with Microsoft Word to allow our work to pop.',
       tags: ['MicrosftWord'],
+      
     },
 
     {
