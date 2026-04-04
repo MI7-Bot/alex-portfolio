@@ -51,7 +51,7 @@ a {text-decoration: none; color: inherit;}
 .hero {
     display: flex;
     align-items: center;
-    justify-cotent: space-between;
+    justify-content: space-between;
     max-width: 900px;
     margin: 0 auto;
     padding: 96px 48px;
@@ -80,7 +80,7 @@ a {text-decoration: none; color: inherit;}
     margin-bottom: 32px;
 }
 
-.hero-btns {display: flex: gap: 12px;}
+.hero-btns {display: flex; gap: 12px;}
 
 .btn-primary {
     font-size: 14px;
@@ -236,4 +236,84 @@ a {text-decoration: none; color: inherit;}
     font-weight: 600;
     color: #111;
     margin-bottom: 4px;
+}
+
+.experience-org {
+    font-size: 13px;
+    color: #888;
+}
+
+.experience-period {
+    font-size: 12px;
+    color: #aaa;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.experience-right p {
+    font-size: 14px;
+    color: #aaa;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Skills */
+.skills-grid {display: flex; flex-wrap: wrap; gap: 10px;}
+
+.skills-tag {
+    font-size: 13px;
+    color: #444;
+    border: 1px solid #e5e5e5;
+    border-radius: 100px;
+    padding: 6px 16px;
+    background: #fafafa;
+    transition: border-color 0.2s;
+}
+
+.skill-tag:hover {border-color: #aaa; color: #111}
+
+/* Contact */
+.contact-intro {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 24px;
+    max-width: 480px;
+}
+
+.contact-row {display: flex; flex-wrap: wrap; gap: 12px;}
+
+.contact-item {
+    font-size: 13px;
+    color: #555;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background: #fff;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.contact-item:hover {border-color: #aaa; color: #111;}
+
+.footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 48px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .nav {padding: 14px 20px;}
+    .nav-links {display: none;}
+    .hero {flex-direction: column-reverse; padding: 48px 20px; gap: 24px;}
+    .hero-title {font-size: 36px;}
+    .hero-avatar {width: 80px; height: 80px; font-size: 28px;}
+    .section {padding: 40px 20px;}
+    .experience-item {grid-template-columns: 1fr; gap: 8px;}
+    .footer {padding: 24px 20px; flex-direction: column; gap: 8px;}
 }
