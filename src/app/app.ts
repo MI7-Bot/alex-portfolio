@@ -63,6 +63,7 @@ export class App {
       course: 'MIT207',
       description: 'A Task that was designed to teach us the importance of knowing who you are and how to convey it alongside your value within 30 seconds.',
       tags: ['Communication'],
+
     },
 
     {
@@ -70,13 +71,15 @@ export class App {
       course: 'MIT207',
       description: 'A assignment designed to simulate attending a real world interview preparing us for when we truly have a interview for a position.',
       tags: ['Communication', 'Punctuality'],
+
     },
 
     {
       title: 'Group Project',
       course: 'MIT207',
-      description: 'A task completed in a small group to simulate the real-world working environment',
+      description: 'A task completed in a small group to simulate the real-world working environment.',
       tags: ['Communication', 'Collaboration'],
+
     },
 
     {
@@ -84,7 +87,57 @@ export class App {
       course: 'MIT207',
       description: 'A task done as individuals to improve ones ability to perform a presentation to peers or management in the workplace.',
       tags: ['Communication'],
-    }
+
+    },
+
+    {
+      title: 'Favourite Movie or TV show HTML/CSS Project', //3
+      course: 'WEB110',
+      description: 'A HTML/CSS project showcasing our favourite Movie or TV show.',
+      tags: ['HTML', 'CSS'],
+
+    },
+
+    {
+      title: 'Favourite Musician HTML/CSS Project', //4
+      course: 'WEB110',
+      description: 'A HTML/CSS project showcasing our favourite musician.',
+      tags: ['HTML', 'CSS'],
+
+    },
+
+    {
+      title: 'Learning Averages', //2
+      course: 'MAD107',
+      description: 'A lab meant to teach us how to teach us how to obtain the average.',
+      tags: ['Java'],
+
+    },
+
+    {
+      title: 'Dice roll & Coin Flip Simulator', //9
+      course: 'MAD107',
+      description: 'A lab where we were tasked to create a dice roll simulator and coin flip simulator.',
+      tags: ['Java'],
+
+    },
+
+    {
+      title: 'Wonders Webpage with PHP', //1
+      course: 'WEB205',
+      description: 'A simple webpage using php uploaded to a school web server some of the world\'s wonders.',
+      tags: ['PHP', 'HTML'],
+
+    },
+
+    {
+      title: 'Yatzy Score Tracker Project', //10
+      course: 'WEB205',
+      description: 'A webpage uploaded to a school web server using MySQL databases and PHP to create a yatzy score tracker.',
+      tags: ['PHP', 'HTML', 'MySQL'],
+
+    },
+
   ]
 
   experience = [
