@@ -28,7 +28,7 @@ Due Date: 2026-04-03 11:59pm
     <h1 class="hero-title">Computer Programming<br>Student</h1>
     <p class="hero-bio">I am in my first year second semester of the program at St. Clair College. I am inspired and enthusiastic about learning new skills I can take to the workfield.</p>
     <div class="hero-btns">
-      <a href="#projects" class="btn-primatry">See my projects</a>
+      <a href="#projects" class="btn-primary">See my projects</a>
       <a href="#contact" class="btn-secondary">Get in touch</a>
     </div>
   </div>
@@ -70,14 +70,14 @@ Due Date: 2026-04-03 11:59pm
   <section class="section section-alt" id="skills">
     <p class="section-label">Skills &amp; technologies</p>
     <div class="skills-grid">
-      <span class="skill-tag" *ngFor="let skill of skills">{{ skill }}</span>
+      <span class="skills-tag" *ngFor="let skill of skills">{{ skill }}</span>
     </div>
   </section>
 
   <!-- Contact -->
    <section class="section" id="contact">
     <p class="section-label">Contact &amp; links</p>
-    <p class="contract-intro">I'm currently looking for internships, co-op placements, and entry-level opportunities. Feel free to reach out! Thank you!</p>
+    <p class="contact-intro">I'm currently looking for internships, co-op placements, and entry-level opportunities. Feel free to reach out! Thank you!</p>
     <div class="contact-row">
       <a [href]="'mailto:' + email" class="contact-item">{{ email }}</a>
       <a [href]="linkedin" target="_blank" rel="noopener" class="contact-item">LinkedIn</a>
