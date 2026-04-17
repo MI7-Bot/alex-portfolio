@@ -69,7 +69,7 @@ export class App {
       description: 'A Task that was designed to teach us the importance of knowing who you are and how to convey it alongside your value within 30 seconds.',
       tags: ['Communication'],
       pdfPath: '',
-      videoPath: 'videos/elevatorPitch.mov',
+      videoPath: 'videos/elevatorPitch.mp4',
 
     },
 
