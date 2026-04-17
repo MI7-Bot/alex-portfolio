@@ -10,7 +10,6 @@ Due Date: 2026-04-03 11:59pm
 
 import { CommonModule } from '@angular/common';
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -30,7 +29,7 @@ export class App {
   bio = 'Computer Programming student at St. Clair College with a passion for building clean, functional web applications. Currently developing my skills in both frontend and backend development and looking to grow through real-world experience.';
 
   skills = [
-    'HTML / CSS', 'JavaScript', 'TypeScript', 'Angular', 'Node.js', 'MySQL', 'Git / GitHub', 'Responsive Design', 'Java', 'XML' 
+    'HTML / CSS', 'JavaScript', 'TypeScript', 'Angular', 'Node.js', 'MySQL', 'Git / GitHub', 'Responsive Design', 'Java', 'XML', 'JSON' 
   ];
 
   schoolProjects = [
@@ -39,6 +38,8 @@ export class App {
       course: 'MIT207',
       description: 'A personal portfolio built using Angular, Show cases projects, skills, and contact information in a responsive layout.',
       tags: ['Angular', 'TypeScript', 'CSS'],
+      pdfPath: '',
+      videoPath: '',
 
     },
     
@@ -47,6 +48,8 @@ export class App {
       course: 'MIT207',
       description: 'A resume new nad improved resume built with Microsoft Word to allow our work to pop.',
       tags: ['MicrosftWord'],
+      pdfPath: 'images/Resume.pdf',
+      videoPath: '',
       
     },
 
@@ -55,6 +58,8 @@ export class App {
       course: 'MIT207',
       description: 'A PowerPoint Presentation built to teach the students how to build a Presentation for real world scenarios.',
       tags: ['MicrosoftPowerPoint'],
+      pdfPath: 'images/presentation.pdf',
+      videoPath: '',
 
     },
 
@@ -63,6 +68,8 @@ export class App {
       course: 'MIT207',
       description: 'A Task that was designed to teach us the importance of knowing who you are and how to convey it alongside your value within 30 seconds.',
       tags: ['Communication'],
+      pdfPath: '',
+      videoPath: 'videos/elevatorPitch.mov',
 
     },
 
@@ -71,6 +78,8 @@ export class App {
       course: 'MIT207',
       description: 'A assignment designed to simulate attending a real world interview preparing us for when we truly have a interview for a position.',
       tags: ['Communication', 'Punctuality'],
+      pdfPath: '',
+      videoPath: '',
 
     },
 
@@ -79,6 +88,8 @@ export class App {
       course: 'MIT207',
       description: 'A task completed in a small group to simulate the real-world working environment.',
       tags: ['Communication', 'Collaboration'],
+      pdfPath: 'images/groupProject.pdf',
+      videoPath: '',
 
     },
 
@@ -87,6 +98,8 @@ export class App {
       course: 'MIT207',
       description: 'A task done as individuals to improve ones ability to perform a presentation to peers or management in the workplace.',
       tags: ['Communication'],
+      pdfPath: 'images/oralPresentation.pdf',
+      videoPath: '',
 
     },
 
@@ -95,6 +108,8 @@ export class App {
       course: 'WEB110',
       description: 'A HTML/CSS project showcasing our favourite Movie or TV show.',
       tags: ['HTML', 'CSS'],
+      pdfPath: 'images/strangerThings.png',
+      videoPath: '',
 
     },
 
@@ -103,6 +118,8 @@ export class App {
       course: 'WEB110',
       description: 'A HTML/CSS project showcasing our favourite musician.',
       tags: ['HTML', 'CSS'],
+      pdfPath: 'images/sabrinaCarpenter.png',
+      videoPath: '',
 
     },
 
@@ -111,6 +128,8 @@ export class App {
       course: 'MAD107',
       description: 'A lab meant to teach us how to teach us how to obtain the average.',
       tags: ['Java'],
+      pdfPath: 'images/learningAverages.png',
+      videoPath: '',
 
     },
 
@@ -119,6 +138,8 @@ export class App {
       course: 'MAD107',
       description: 'A lab where we were tasked to create a dice roll simulator and coin flip simulator.',
       tags: ['Java'],
+      pdfPath: 'images/dRollSim.png',
+      videoPath: '',
 
     },
 
@@ -127,6 +148,8 @@ export class App {
       course: 'WEB205',
       description: 'A simple webpage using php uploaded to a school web server some of the world\'s wonders.',
       tags: ['PHP', 'HTML'],
+      pdfPath: 'images/wonders.png',
+      videoPath: '',
 
     },
 
@@ -135,8 +158,40 @@ export class App {
       course: 'WEB205',
       description: 'A webpage uploaded to a school web server using MySQL databases and PHP to create a yatzy score tracker.',
       tags: ['PHP', 'HTML', 'MySQL'],
+      pdfPath: 'images/yatzyScore.png',
+      videoPath: '',
 
     },
+
+    {
+      title: 'JavaScript Basics', //1
+      course: 'WEB230',
+      description: 'A script that was created to get use familiar with the basics of using JavaScript.',
+      tags: ['JavaScript', 'HTML'],
+      pdfPath: 'images/a1.pdf',
+      videoPath: '',
+
+    },
+
+    {
+      title: 'Classes and Maps', //6
+      course: 'WEB230',
+      description: 'A script that was created to help us become familiar with classes and maps.',
+      tags: ['JavaScript', 'HTML'],
+      pdfPath: 'images/a6.png',
+      videoPath: '',
+
+    },
+
+    {
+      title: 'Basic HTTP Server & JSON Response', //8
+      course: 'WEB230',
+      description: 'This was our first time using Node.js to create a HTTP Server with a JSON response.',
+      tags: ['JavaScript', 'Node.js', 'JSON'],
+      pdfPath: 'images/a8.png',
+      videoPath: '',
+
+    }
 
   ]
 

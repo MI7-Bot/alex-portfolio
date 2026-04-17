@@ -18,7 +18,7 @@ Due Date: 2026-04-03 11:59pm
     <li><a href="#skills">Skills</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a class="resume-btn" href="Resume.pdf" target="_blank">Resume</a>
+  <a class="resume-btn" href="images/Resume.pdf" target="_blank">Resume</a>
 </nav>
 
 <!-- Hero / About -->
@@ -47,6 +47,10 @@ Due Date: 2026-04-03 11:59pm
       <p> {{ project.description }}</p>
       <div class="project-tags">
         <span class="project-tags" *ngFor="let tag of project.tags">{{ tag }}</span>
+      </div>
+      <div class="project-links">
+        <a *ngIf="project.pdfPath" [href]="project.pdfPath" target="_blank" rel="noopener" class="pdf-btn">View PDF</a>
+        <a *ngIf="project.videoPath" [href]="project.videoPath" target="_blank" rel="noopener" class="pdf-btn">Watch Video</a>
       </div>
     </div>
   </div>
